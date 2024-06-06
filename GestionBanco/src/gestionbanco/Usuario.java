@@ -19,4 +19,8 @@ public class Usuario {
         dni = d;
         numCuenta = nu;
     }
+    
+    public int getNumCuenta(){
+        return numCuenta;
+    }
 }

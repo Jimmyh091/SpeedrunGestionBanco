@@ -20,6 +20,10 @@ public abstract class Cuenta {
         anio = a;
     }
     
-    public abstract void ingresar(float ingreso);    
+    public int getId(){
+        return id;
+    }
+    
+    public abstract void ingresar(float ingreso);
     public abstract void retiro(float ingreso);
 }
