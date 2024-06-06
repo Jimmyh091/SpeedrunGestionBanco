@@ -13,5 +13,15 @@ public class CuentaCorriente extends Cuenta{
     public CuentaCorriente(int i, float s, int a){
         super(i, s, a);
     }
+
+    @Override
+    public void ingresar(float ingreso) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void retiro(float ingreso) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
 // saldo * (1 + intereses) ^ numAnio<pedir>
