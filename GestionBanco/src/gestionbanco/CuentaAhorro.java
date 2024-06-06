@@ -9,6 +9,9 @@ package gestionbanco;
  *
  * @author EAG
  */
-public class CuentaAhorro {
-    
+public class CuentaAhorro extends Cuenta{
+    public CuentaAhorro(int i, float s, int a){
+        super(i, s, a);
+    }
 }
+// saldo * (1 + intereses) ^ (numAnio<pedir> * 2)

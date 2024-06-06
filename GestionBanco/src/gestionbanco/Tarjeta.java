@@ -9,6 +9,20 @@ package gestionbanco;
  *
  * @author EAG
  */
-public class Tarjeta {
+public abstract class Tarjeta {
+    private int id;
+    private int cuenta;
+    private float saldo;
     
+    public Tarjeta(int i, int c, float s){
+        id = i;
+        cuenta = c;
+        saldo = s;
+    }
+    
+    public void ingresar(float ingreso){
+        saldo += ingreso;
+    }
+    
+    public abstract void retiro(float ingreso);
 }

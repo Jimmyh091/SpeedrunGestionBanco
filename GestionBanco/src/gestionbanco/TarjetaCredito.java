@@ -9,6 +9,14 @@ package gestionbanco;
  *
  * @author EAG
  */
-public class TarjetaCredito {
+public class TarjetaCredito extends Tarjeta{
+    public TarjetaCredito(int i, int c, float s){
+        super(i, c, s);
+    }
+    
+    @Override
+    public void retiro(float ingreso) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

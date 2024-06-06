@@ -10,5 +10,13 @@ package gestionbanco;
  * @author EAG
  */
 public class Usuario {
+    private String nombre;
+    private String dni;
+    private int numCuenta;
     
+    public Usuario(String n, String d, int nu){
+        nombre = n;
+        dni = d;
+        numCuenta = nu;
+    }
 }
