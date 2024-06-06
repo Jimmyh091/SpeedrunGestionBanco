@@ -9,14 +9,6 @@ package gestionbanco;
  *
  * @author EAG
  */
-public class GestionBanco {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
-    }
+public class TarjetaCredito {
     
 }
